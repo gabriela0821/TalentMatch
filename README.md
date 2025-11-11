@@ -15,7 +15,7 @@ Plataforma que conecta empleadores con candidatos mediante matching inteligente.
 ## Instalación
 
 ### Backend
-1. Restaurar BD: ejecutar scripts en `/Backend/Database`
+1. Restaurar BD: ejecutar scripts en `/Backend`
 2. Configurar connection string en `appsettings.json`
 3. Ejecutar: `dotnet run --project Backend/TalentMatch.API`
 
