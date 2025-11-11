@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\features\\services\\jobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\features\\services\\jobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\features\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\features\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8CED90-39CF-47E6-85CA-142443004E16}|TalentMatch.Infrastructure\\TalentMatch.Infrastructure.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.infrastructure\\middlewares\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8CED90-39CF-47E6-85CA-142443004E16}|TalentMatch.Infrastructure\\TalentMatch.Infrastructure.csproj|solutionrelative:talentmatch.infrastructure\\middlewares\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\interfaces\\services\\ijobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\interfaces\\services\\ijobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\dtos\\jobseekerprofile\\request\\createjobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\dtos\\jobseekerprofile\\request\\createjobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\features\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\features\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\extensions\\service\\controllerserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\extensions\\service\\controllerserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\employerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\employerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\applicationsservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\applicationsservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\jobpostingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\jobpostingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.api\\controllers\\matchingservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{828CA120-9E9F-435D-9FCE-BC92740EFAFE}|TalentMatch.Api\\TalentMatch.Api.csproj|solutionrelative:talentmatch.api\\controllers\\matchingservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\dtos\\jobposting\\response\\getjobpostingdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\dtos\\jobposting\\response\\getjobpostingdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\interfaces\\services\\ijobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\interfaces\\services\\ijobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\wrappers\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\wrappers\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.api\\talentmatch.core\\dtos\\jobmatch\\request\\updatejobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908AABB0-DD7D-46A5-A8D9-19C89C908316}|TalentMatch.Core\\TalentMatch.Core.csproj|solutionrelative:talentmatch.core\\dtos\\jobmatch\\request\\updatejobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1523,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IJobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IJobSeekerService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Interfaces\\Services\\IJobSeekerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IJobSeekerService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Interfaces\\Services\\IJobSeekerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:59:34.646Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobSeekerController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\JobSeekerController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\JobSeekerController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\JobSeekerController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\JobSeekerController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:28:48.142Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Features\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\AuthService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Features\\Services\\AuthService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:45:35.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Startup.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Startup.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:06:36.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidateFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Infrastructure\\Middlewares\\ValidateFilterAttribute.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Infrastructure\\Middlewares\\ValidateFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Infrastructure\\Middlewares\\ValidateFilterAttribute.cs",
+              "RelativeToolTip": "TalentMatch.Infrastructure\\Middlewares\\ValidateFilterAttribute.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:47:37.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAlwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:11:09.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobPostingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\JobPostingService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Features\\Services\\JobPostingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\JobPostingService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Features\\Services\\JobPostingService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:28:45.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControllerServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Extensions\\Service\\ControllerServiceExtension.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Extensions\\Service\\ControllerServiceExtension.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Extensions\\Service\\ControllerServiceExtension.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Extensions\\Service\\ControllerServiceExtension.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAApwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:26:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\JobSeekerService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Features\\Services\\JobSeekerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Features\\Services\\JobSeekerService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Features\\Services\\JobSeekerService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAYwHQAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:38:34.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateJobSeekerProfileDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "RelativeToolTip": "TalentMatch.Core\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:38:49.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployerServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\EmployerServiceController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\EmployerServiceController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\EmployerServiceController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\EmployerServiceController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:11:57.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationsServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\ApplicationsServiceController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\ApplicationsServiceController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\ApplicationsServiceController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\ApplicationsServiceController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:12:03.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobPostingController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\JobPostingController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\JobPostingController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\JobPostingController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\JobPostingController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:11:53.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MatchingServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\MatchingServiceController.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Api\\Controllers\\MatchingServiceController.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Api\\Controllers\\MatchingServiceController.cs",
+              "RelativeToolTip": "TalentMatch.Api\\Controllers\\MatchingServiceController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:11:47.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:45:03.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetJobPostingDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "RelativeToolTip": "TalentMatch.Core\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:17:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IJobPostingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IJobPostingService.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Interfaces\\Services\\IJobPostingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Interfaces\\Services\\IJobPostingService.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Interfaces\\Services\\IJobPostingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:28:49.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Wrappers\\Response.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\Wrappers\\Response.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\Wrappers\\Response.cs",
+              "RelativeToolTip": "TalentMatch.Core\\Wrappers\\Response.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:56:34.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateJobMatchDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "RelativeDocumentMoniker": "TalentMatch.Core\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\talentMatch.api\\TalentMatch.Core\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "RelativeToolTip": "TalentMatch.Core\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:49:06.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 464,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 464,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

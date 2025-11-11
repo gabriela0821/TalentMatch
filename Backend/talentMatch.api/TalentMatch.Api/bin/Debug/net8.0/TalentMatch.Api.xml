@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TalentMatch.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TalentMatch.Api.Controllers.ApplicationsServiceController.CreateApplication(TalentMatch.Core.DTOs.Application.Request.CreateApplicationDtoRequest)">
+            <summary>
+            Crea una nueva aplicación (perfil) de un empleador.
+            </summary>
+            <remarks>
+            Este endpoint permite registrar la información inicial del empleador, incluyendo
+            datos como nombre de la empresa, industria, ciudad, número de empleados, teléfono,
+            sitio web y descripción general.
+            </remarks>
+            <param name="create">Objeto que contiene los datos necesarios para crear la aplicación del empleador.</param>
+            <returns>Indica si la creación fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.ApplicationsServiceController.GetApplicationByJobId(System.Int32)">
+            <summary>
+            Obtiene la aplicación (perfil) del empleador asociada a un Job Id.
+            </summary>
+            <remarks>
+            Devuelve la información del perfil vinculada al identificador del trabajo (Job Id),
+            permitiendo consultar el perfil asociado a una oferta o publicación específica.
+            </remarks>
+            <param name="jobId">Identificador del trabajo (Job Id) relacionado a la aplicación del empleador.</param>
+            <returns>Datos del perfil del empleador.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.ApplicationsServiceController.GetApplicationByUserId(System.Int32)">
+            <summary>
+            Obtiene la aplicación (perfil) del empleador asociada a un User Id.
+            </summary>
+            <remarks>
+            Devuelve la información completa del perfil correspondiente al usuario que creó
+            la aplicación (perfil de empleador).
+            </remarks>
+            <param name="userId">Identificador del usuario dueño de la aplicación.</param>
+            <returns>Datos del perfil del empleador.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.AuthController.LoginUserAsync(TalentMatch.Core.DTOs.User.Request.LoginUserDtoRequest)">
+            <summary>
+            Permite iniciar sesión y obtener un token JWT.
+            </summary>
+            <remarks>
+            Este endpoint permite a un usuario existente iniciar sesión proporcionando su correo electrónico y contraseña.
+            Si las credenciales son correctas, se devuelve un JWT que debe incluirse en las solicitudes autorizadas posteriores.
+            </remarks>
+            <param name="loginUser">Objeto que contiene el Email y Password del usuario.</param>
+            <returns>Respuesta con los datos del usuario y el token JWT.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.AuthController.RegisterUserAsync(TalentMatch.Core.DTOs.User.Request.CreateUserDtoRequest)">
+            <summary>
+            Permite registrar un nuevo usuario.
+            </summary>
+            <remarks>
+            Este endpoint permite crear un usuario nuevo proporcionando correo electrónico, contraseña y tipo de usuario (JobSeeker o Employer).
+            Una vez registrado, el usuario podrá iniciar sesión y recibir un token JWT para autenticación.
+            </remarks>
+            <param name="createUser">Objeto con los datos del nuevo usuario.</param>
+            <returns>Respuesta con los datos del usuario registrado.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.EmployerServiceController.CreateProfile(TalentMatch.Core.DTOs.EmployerProfile.Request.CreateEmployerProfileDtoRequest)">
+            <summary>
+            Permite crear el perfil de un Employer.
+            </summary>
+            <remarks>
+            Este endpoint permite a un usuario tipo empleador crear su perfil proporcionando información básica como nombre de la empresa, industria, ciudad, número de empleados, teléfono, sitio web y descripción de la empresa.
+            </remarks>
+            <param name="create">Objeto que contiene los datos necesarios para crear el perfil del empleador.</param>
+            <returns>Respuesta indicando si la creación fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.EmployerServiceController.UpdateProfile(TalentMatch.Core.DTOs.EmployerProfile.Request.UpdateEmployerProfileDtoRequest)">
+            <summary>
+            Permite actualizar el perfil de un Employer.
+            </summary>
+            <remarks>
+            Este endpoint permite al usuario tipo empleador modificar la información de su perfil previamente creada.
+            </remarks>
+            <param name="update">Objeto con los datos actualizados del perfil del empleador.</param>
+            <returns>Respuesta indicando si la actualización fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.EmployerServiceController.GetProfileById(System.Int32)">
+            <summary>
+            Permite obtener el perfil de un Employer por Id de usuario.
+            </summary>
+            <remarks>
+            Este endpoint devuelve la información completa del perfil asociado a un usuario empleador específico.
+            </remarks>
+            <param name="userId">Id del usuario cuyo perfil de empleador se desea consultar.</param>
+            <returns>Respuesta con los datos del perfil del empleador.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobPostingController.CreateJobPosting(TalentMatch.Core.DTOs.JobPosting.Request.CreateJobPostingDtoRequest)">
+            <summary>
+            Crea una nueva vacante junto con sus preguntas opcionales.
+            </summary>
+            <remarks>
+            Este endpoint permite a un empleador crear un Job Posting proporcionando toda la información de la vacante.
+            Si se incluyen preguntas de aplicación, se agregan automáticamente a la vacante.
+            </remarks>
+            <param name="create">Objeto con los datos del Job Posting y preguntas opcionales.</param>
+            <returns>Respuesta con los datos de la vacante recién creada.</returns>
+            <response code="500">InternalServerError. Ha ocurrido una excepción no controlada.</response>
+            <response code="200">OK. Devuelve la información solicitada.</response>
+            <response code="404">NotFound. No se ha encontrado la información solicitada.</response>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobPostingController.CreateQuestions(System.Collections.Generic.List{TalentMatch.Core.DTOs.ApplicationQuestion.Request.CreateApplicationQuestionDtoRequest})">
+            <summary>
+            Agrega preguntas a una vacante existente.
+            </summary>
+            <remarks>
+            Permite a un empleador agregar o actualizar preguntas de aplicación en un Job Posting previamente creado.
+            </remarks>
+            <param name="questions">Lista de preguntas a agregar.</param>
+            <returns>Respuesta con la vacante actualizada.</returns>
+            <response code="500">InternalServerError. Ha ocurrido una excepción no controlada.</response>
+            <response code="200">OK. Devuelve la información solicitada.</response>
+            <response code="404">NotFound. No se ha encontrado la información solicitada.</response>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobPostingController.GetJobPostingById(System.Int32)">
+            <summary>
+            Obtiene una vacante por su Id.
+            </summary>
+            <remarks>
+            Devuelve los detalles completos de un Job Posting incluyendo preguntas de aplicación si existen.
+            </remarks>
+            <param name="jobId">Id de la vacante a consultar.</param>
+            <returns>Respuesta con los datos de la vacante.</returns>
+            <response code="500">InternalServerError. Ha ocurrido una excepción no controlada.</response>
+            <response code="200">OK. Devuelve la información solicitada.</response>
+            <response code="404">NotFound. No se ha encontrado la información solicitada.</response>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobPostingController.GetJobPostings(TalentMatch.Domain.QueryFilters.JobPostingQueryFilter)">
+            <summary>
+            Obtiene una lista de vacantes según filtros y paginación.
+            </summary>
+            <remarks>
+            Permite filtrar vacantes por ubicación, experiencia mínima, nivel educativo, palabras clave y paginarlas.
+            </remarks>
+            <param name="filter">Objeto con los filtros de búsqueda y parámetros de paginación.</param>
+            <returns>Respuesta con la lista de vacantes paginadas.</returns>
+            <response code="500">InternalServerError. Ha ocurrido una excepción no controlada.</response>
+            <response code="200">OK. Devuelve la información solicitada.</response>
+            <response code="404">NotFound. No se ha encontrado la información solicitada.</response>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobSeekerController.CreateProfile(TalentMatch.Core.DTOs.JobSeekerProfile.Request.CreateJobSeekerProfileDtoRequest)">
+            <summary>
+            Permite crear el perfil de un Job Seeker.
+            </summary>
+            <remarks>
+            Este endpoint permite a un usuario crear su perfil proporcionando información básica como nombre, edad, ciudad, nivel educativo, habilidades y salario esperado.
+            </remarks>
+            <param name="create">Objeto que contiene los datos necesarios para crear el perfil.</param>
+            <returns>Respuesta indicando si la creación fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobSeekerController.UpdateProfile(TalentMatch.Core.DTOs.JobSeekerProfile.Request.UpdateJobSeekerProfileDtoRequest)">
+            <summary>
+            Permite actualizar el perfil de un Job Seeker.
+            </summary>
+            <remarks>
+            Este endpoint permite al usuario modificar la información de su perfil previamente creada.
+            </remarks>
+            <param name="update">Objeto con los datos actualizados del perfil.</param>
+            <returns>Respuesta indicando si la actualización fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobSeekerController.GetProfileById(System.Int32)">
+            <summary>
+            Permite obtener el perfil de un Job Seeker por Id de usuario.
+            </summary>
+            <remarks>
+            Este endpoint devuelve la información completa del perfil asociado a un usuario específico.
+            </remarks>
+            <param name="userId">Id del usuario cuyo perfil se desea consultar.</param>
+            <returns>Respuesta con los datos del perfil.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobSeekerController.CreateExperience(TalentMatch.Core.DTOs.WorkExperience.Request.CreateWorkExperienceDtoRequest)">
+            <summary>
+            Permite agregar experiencia laboral al perfil de un Job Seeker.
+            </summary>
+            <remarks>
+            Este endpoint permite registrar una nueva experiencia laboral indicando empresa, cargo, fechas y descripción.
+            </remarks>
+            <param name="create">Objeto que contiene los datos de la experiencia laboral.</param>
+            <returns>Respuesta indicando si la creación fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.JobSeekerController.CreateCertification(TalentMatch.Core.DTOs.Certification.Request.CreateCertificationDtoRequest)">
+            <summary>
+            Permite agregar una certificación al perfil de un Job Seeker.
+            </summary>
+            <remarks>
+            Este endpoint permite registrar certificaciones obtenidas indicando nombre, entidad emisora, fecha y URL de credencial.
+            </remarks>
+            <param name="create">Objeto que contiene los datos de la certificación.</param>
+            <returns>Respuesta indicando si la creación fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.MatchingServiceController.CreateMatch(TalentMatch.Core.DTOs.JobMatch.Request.CreateJobMatchDtoRequest)">
+            <summary>
+            Crea un registro de coincidencia (match) entre una oferta y un candidato.
+            </summary>
+            <remarks>
+            Este endpoint calcula el porcentaje de compatibilidad entre un JobSeeker y un JobPosting,
+            genera los puntajes de Skills, Experiencia, Educación y Ubicación, y almacena el resultado
+            en la tabla JobMatches.
+            </remarks>
+            <param name="create">Objeto que contiene JobPostingId y JobSeekerId.</param>
+            <returns>Respuesta indicando si el match fue creado exitosamente.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.MatchingServiceController.UpdateMatchStatus(TalentMatch.Core.DTOs.JobMatch.Request.UpdateJobMatchDtoRequest)">
+            <summary>
+            Actualiza el estado de un match entre un candidato y una oferta.
+            </summary>
+            <remarks>
+            El status puede cambiar entre: Pending, Viewed, Applied o Rejected.
+            </remarks>
+            <param name="update">Objeto que contiene MatchId y Status.</param>
+            <returns>Respuesta indicando si la actualización fue exitosa.</returns>
+        </member>
+        <member name="M:TalentMatch.Api.Controllers.MatchingServiceController.GetMatches(TalentMatch.Domain.QueryFilters.MatchesQueryFilter)">
+            <summary>
+            Obtiene los matches filtrados por oferta, candidato o estado.
+            </summary>
+            <remarks>
+            Permite recuperar los JobMatches generados, incluyendo el puntaje total y los puntajes individuales
+            (Skills, Experiencia, Educación, Ubicación).
+            </remarks>
+            <param name="filter">Filtros de búsqueda opcionales (JobPostingId, JobSeekerId, Status).</param>
+            <returns>Lista de coincidencias con detalles del match.</returns>
+        </member>
+    </members>
+</doc>

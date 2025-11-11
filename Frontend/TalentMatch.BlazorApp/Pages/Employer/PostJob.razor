@@ -1,0 +1,127 @@
+﻿@page "/employer/postjob"
+@using TalentMatch.BlazorApp.Models.DTOs.JobPosting.Request
+@using TalentMatch.BlazorApp.Models.Interfaces.Services
+@attribute [Authorize(Roles = "Employer")]
+@inject IJobPostingService JobService
+@inject NavigationManager Navigation
+
+<PageTitle>Publicar Vacante</PageTitle>
+
+<h3>Publicar Nueva Vacante</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+
+<EditForm Model="@job" OnValidSubmit="HandleSubmitAsync">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label class="form-label">Título del Puesto</label>
+        <InputText @bind-Value="job.Title" class="form-control" placeholder="Ej: Desarrollador .NET Senior" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <InputTextArea @bind-Value="job.Description" class="form-control" rows="5"
+                       placeholder="Describe las responsabilidades y requisitos del puesto..." />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Habilidades Requeridas (separadas por comas)</label>
+        <InputText @bind-Value="job.RequiredSkills" class="form-control" placeholder="C#, .NET, SQL Server" />
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Ubicación</label>
+            <InputText @bind-Value="job.Location" class="form-control" placeholder="Bogotá" />
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Modalidad</label>
+            <InputSelect @bind-Value="job.WorkMode" class="form-select">
+                <option value="">Seleccione...</option>
+                <option value="Presencial">Presencial</option>
+                <option value="Remoto">Remoto</option>
+                <option value="Híbrido">Híbrido</option>
+            </InputSelect>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Educación Mínima</label>
+            <InputSelect @bind-Value="job.MinEducationLevel" class="form-select">
+                <option value="">Seleccione...</option>
+                <option value="Bachiller">Bachiller</option>
+                <option value="Técnico">Técnico</option>
+                <option value="Tecnólogo">Tecnólogo</option>
+                <option value="Profesional">Profesional</option>
+                <option value="Especialización">Especialización</option>
+            </InputSelect>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Experiencia Mínima (años)</label>
+            <InputNumber @bind-Value="job.MinExperience" class="form-control" />
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Salario Mínimo</label>
+            <InputNumber @bind-Value="job.SalaryMin" class="form-control" />
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="form-label">Salario Máximo</label>
+            <InputNumber @bind-Value="job.SalaryMax" class="form-control" />
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button type="button" class="btn btn-secondary" @onclick="@(() => Navigation.NavigateTo("/employer/dashboard"))">
+            Cancelar
+        </button>
+        <button type="submit" class="btn btn-primary" disabled="@isSaving">
+            @if (isSaving)
+            {
+                <span class="spinner-border spinner-border-sm me-2"></span>
+            }
+            Publicar Vacante
+        </button>
+    </div>
+</EditForm>
+
+@code {
+    private CreateJobPostingDtoRequest job = new();
+    private bool isSaving = false;
+    private string errorMessage = string.Empty;
+
+    private async Task HandleSubmitAsync()
+    {
+        isSaving = true;
+        errorMessage = string.Empty;
+
+        try
+        {
+            var result = await JobService.CreateJobPosting(job);
+
+            if ((bool)result.Succeeded)
+            {
+                Navigation.NavigateTo("/employer/dashboard");
+            }
+            else
+            {
+                errorMessage = "Error al publicar la vacante";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error al publicar la vacante";
+            Console.WriteLine($"Error creating job: {ex.Message}");
+        }
+        finally
+        {
+            isSaving = false;
+        }
+    }
+}

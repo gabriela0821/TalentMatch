@@ -1,0 +1,98 @@
+﻿@page "/login"
+@using TalentMatch.BlazorApp.Models.DTOs.User.Request
+@using TalentMatch.BlazorApp.Models.Interfaces.Services
+@using TalentMatch.BlazorApp.Providers.TalentMatch.BlazorApp.Providers
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+<PageTitle>Iniciar Sesión</PageTitle>
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 col-lg-4">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title text-center mb-4">Iniciar Sesión</h3>
+
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @errorMessage
+                    </div>
+                }
+
+                <EditForm Model="@loginRequest" OnValidSubmit="HandleLoginAsync">
+                    <DataAnnotationsValidator />
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <InputText @bind-Value="loginRequest.Email" class="form-control" placeholder="tu@email.com" />
+                        <ValidationMessage For="@(() => loginRequest.Email)" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña</label>
+                        <InputText type="password" @bind-Value="loginRequest.Password" class="form-control" />
+                        <ValidationMessage For="@(() => loginRequest.Password)" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100" disabled="@isLoading">
+                        @if (isLoading)
+                        {
+                            <span class="spinner-border spinner-border-sm me-2"></span>
+                        }
+                        Iniciar Sesión
+                    </button>
+                </EditForm>
+
+                <div class="text-center mt-3">
+                    <a href="/register">¿No tienes cuenta? Regístrate aquí</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginUserDtoRequest loginRequest = new();
+    private string errorMessage = string.Empty;
+    private bool isLoading = false;
+
+    private async Task HandleLoginAsync()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+
+        try
+        {
+            var result = await AuthService.LoginUserAsync(loginRequest);
+
+            if (result != null)
+            {
+                ((CustomAuthStateProvider)AuthStateProvider).NotifyUserAuthentication(result.Data.UserType);
+
+                if (result.Data.UserType == "Employer")
+                {
+                    Navigation.NavigateTo("/employer/dashboard", true);
+                }
+                else
+                {
+                    Navigation.NavigateTo("/jobseeker/dashboard", true);
+                }
+            }
+            else
+            {
+                errorMessage = "Email o contraseña incorrectos";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error al iniciar sesión. Intenta nuevamente.";
+            Console.WriteLine($"Login error: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

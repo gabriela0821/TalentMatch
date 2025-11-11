@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using TalentMatch.BlazorApp.Models.Interfaces.Services
+@using TalentMatch.BlazorApp.Providers.TalentMatch.BlazorApp.Providers
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+<AuthorizeView>
+    <Authorized>
+        <span class="me-3">Hola, @context.User.Identity?.Name</span>
+        <button class="btn btn-sm btn-outline-secondary" @onclick="LogoutAsync">
+            Cerrar Sesión
+        </button>
+    </Authorized>
+    <NotAuthorized>
+        <a href="login" class="btn btn-sm btn-primary me-2">Iniciar Sesión</a>
+        <a href="register" class="btn btn-sm btn-outline-primary">Registrarse</a>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private async Task LogoutAsync()
+    {
+        await AuthService.LogoutAsync();
+        ((CustomAuthStateProvider)AuthStateProvider).NotifyUserLogout();
+        Navigation.NavigateTo("/", true);
+    }
+}

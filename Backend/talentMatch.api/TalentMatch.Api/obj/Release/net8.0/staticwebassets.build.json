@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "r1HWMN/LLnAkZb26G843XT0VpYT+G98fvnoWVPHgPP8=",
+  "Source": "TicketAutomation.Api",
+  "BasePath": "_content/TicketAutomation.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

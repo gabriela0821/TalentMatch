@@ -1,0 +1,15 @@
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\bin\Release\net8.0\TicketAutomation.Core.deps.json
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\bin\Release\net8.0\TicketAutomation.Core.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\bin\Release\net8.0\TicketAutomation.Core.pdb
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\bin\Release\net8.0\TicketAutomation.Domain.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\bin\Release\net8.0\TicketAutomation.Domain.pdb
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.csproj.AssemblyReference.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.AssemblyInfoInputs.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.AssemblyInfo.cs
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.csproj.CoreCompileInputs.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAu.1646AC51.Up2Date
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\refint\TicketAutomation.Core.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\TicketAutomation.Core.pdb
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Core\obj\Release\net8.0\ref\TicketAutomation.Core.dll

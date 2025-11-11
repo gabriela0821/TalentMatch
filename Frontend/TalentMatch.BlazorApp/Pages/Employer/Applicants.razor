@@ -1,0 +1,17 @@
+﻿@page "/employer/applicants/{JobId:int}"
+@attribute [Authorize(Roles = "Employer")]
+
+<PageTitle>Candidatos</PageTitle>
+
+<h3>Candidatos para la Vacante</h3>
+
+<div class="alert alert-info">
+    Esta funcionalidad estará disponible cuando se implementen los endpoints de aplicaciones y matching.
+</div>
+
+<a href="/employer/dashboard" class="btn btn-secondary">Volver al Dashboard</a>
+
+@code {
+    [Parameter]
+    public int JobId { get; set; }
+}

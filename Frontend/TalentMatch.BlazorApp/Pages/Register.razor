@@ -1,0 +1,106 @@
+﻿@page "/register"
+@using TalentMatch.BlazorApp.Models.DTOs.User.Request
+@using TalentMatch.BlazorApp.Models.Interfaces.Services
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+
+<PageTitle>Registro</PageTitle>
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 col-lg-4">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title text-center mb-4">Crear Cuenta</h3>
+
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @errorMessage
+                    </div>
+                }
+
+                @if (!string.IsNullOrEmpty(successMessage))
+                {
+                    <div class="alert alert-success" role="alert">
+                        @successMessage
+                    </div>
+                }
+
+                <EditForm Model="@registerRequest" OnValidSubmit="HandleRegisterAsync">
+                    <DataAnnotationsValidator />
+
+                    <div class="mb-3">
+                        <label class="form-label">Tipo de Usuario</label>
+                        <InputSelect @bind-Value="registerRequest.UserType" class="form-select">
+                            <option value="JobSeeker">Candidato</option>
+                            <option value="Employer">Empleador</option>
+                        </InputSelect>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <InputText @bind-Value="registerRequest.Email" class="form-control" placeholder="tu@email.com" />
+                        <ValidationMessage For="@(() => registerRequest.Email)" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña</label>
+                        <InputText type="password" @bind-Value="registerRequest.PasswordHash" class="form-control" />
+                        <ValidationMessage For="@(() => registerRequest.PasswordHash)" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100" disabled="@isLoading">
+                        @if (isLoading)
+                        {
+                            <span class="spinner-border spinner-border-sm me-2"></span>
+                        }
+                        Registrarse
+                    </button>
+                </EditForm>
+
+                <div class="text-center mt-3">
+                    <a href="/login">¿Ya tienes cuenta? Inicia sesión aquí</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private CreateUserDtoRequest registerRequest = new();
+    private string errorMessage = string.Empty;
+    private string successMessage = string.Empty;
+    private bool isLoading = false;
+
+    private async Task HandleRegisterAsync()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+
+        try
+        {
+            var result = await AuthService.RegisterUserAsync(registerRequest);
+
+            if ((bool)result.Succeeded)
+            {
+                successMessage = "Cuenta creada exitosamente. Redirigiendo al login...";
+                await Task.Delay(2000);
+                Navigation.NavigateTo("/login");
+            }
+            else
+            {
+                errorMessage = "Error al crear la cuenta. El email puede estar ya registrado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error al registrarse. Intenta nuevamente.";
+            Console.WriteLine($"Register error: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

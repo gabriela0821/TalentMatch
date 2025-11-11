@@ -1,0 +1,1272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\jobseeker\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\jobseeker\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\jobseeker\\jobdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\jobseeker\\jobdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\jobseeker\\myapplications.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\jobseeker\\myapplications.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\jobseeker\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\jobseeker\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\jobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\jobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\providers\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:providers\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobseekerprofile\\request\\createjobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobseekerprofile\\request\\createjobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\employer\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\employer\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\services\\matchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:services\\matchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\employer\\postjob.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\employer\\postjob.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\talentmatch.blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:talentmatch.blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobseekerprofile\\response\\getjobseekerprofiledtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobseekerprofile\\response\\getjobseekerprofiledtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobposting\\response\\getjobpostingdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobposting\\response\\getjobpostingdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\pages\\employer\\applicants.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:pages\\employer\\applicants.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\imatchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\imatchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobmatch\\request\\matchesqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobmatch\\request\\matchesqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\ijobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\ijobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\ijobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\ijobpostingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobposting\\request\\jobpostingqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobposting\\request\\jobpostingqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\interfaces\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\interfaces\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\workexperience\\response\\getworkexperiencedtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\workexperience\\response\\getworkexperiencedtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\workexperience\\request\\updateworkexperiencedtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\workexperience\\request\\updateworkexperiencedtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\workexperience\\request\\createworkexperiencedtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\workexperience\\request\\createworkexperiencedtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\user\\response\\getuserdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\user\\response\\getuserdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\user\\request\\updateuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\user\\request\\updateuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\user\\request\\loginuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\user\\request\\loginuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\user\\request\\createuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\user\\request\\createuserdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobseekerprofile\\request\\updatejobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobseekerprofile\\request\\updatejobseekerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobposting\\request\\updatejobpostingdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobposting\\request\\updatejobpostingdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobposting\\request\\createjobpostingdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobposting\\request\\createjobpostingdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobmatch\\response\\getjobmatchdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobmatch\\response\\getjobmatchdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobmatch\\request\\updatejobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobmatch\\request\\updatejobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\jobmatch\\request\\createjobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\jobmatch\\request\\createjobmatchdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\employerprofile\\response\\getemployerprofiledtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\employerprofile\\response\\getemployerprofiledtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\employerprofile\\request\\updateemployerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\employerprofile\\request\\updateemployerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\employerprofile\\request\\createemployerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\employerprofile\\request\\createemployerprofiledtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\certification\\response\\getcertificationdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\certification\\response\\getcertificationdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\certification\\request\\updatecertificationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\certification\\request\\updatecertificationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\certification\\request\\createcertificationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\certification\\request\\createcertificationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\applicationquestion\\response\\getapplicationquestiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\applicationquestion\\response\\getapplicationquestiondtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\applicationquestion\\request\\createapplicationquestiondtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\applicationquestion\\request\\createapplicationquestiondtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\applicationanswer\\response\\getapplicationanswerdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\applicationanswer\\response\\getapplicationanswerdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\applicationanswer\\request\\updateapplicationanswerdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\applicationanswer\\request\\updateapplicationanswerdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\applicationanswer\\request\\createapplicationanswerdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\applicationanswer\\request\\createapplicationanswerdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\application\\response\\getapplicationdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\application\\response\\getapplicationdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|c:\\users\\larag\\onedrive\\documentos\\talentmatch\\talentmatch.blazorapp\\models\\dtos\\application\\request\\createapplicationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98602D3-11F2-478F-F33B-5ACBD1E34323}|TalentMatch.BlazorApp.csproj|solutionrelative:models\\dtos\\application\\request\\createapplicationdtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1523,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Pages\\JobSeeker\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\Dashboard.razor",
+              "RelativeToolTip": "Pages\\JobSeeker\\Dashboard.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:03.889Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Pages\\Employer\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\Dashboard.razor",
+              "RelativeToolTip": "Pages\\Employer\\Dashboard.razor",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:43.159Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\JobSeekerService.cs",
+              "RelativeDocumentMoniker": "Services\\JobSeekerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\JobSeekerService.cs",
+              "RelativeToolTip": "Services\\JobSeekerService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwD4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:49:16.978Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-11T06:07:24.453Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-11T07:38:14.896Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:17:47.404Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Register.razor",
+              "RelativeToolTip": "Pages\\Register.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:04:50.65Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:23:00.691Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobPostingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\JobPostingService.cs",
+              "RelativeDocumentMoniker": "Services\\JobPostingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\JobPostingService.cs",
+              "RelativeToolTip": "Services\\JobPostingService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:49:36.017Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PostJob.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\PostJob.razor",
+              "RelativeDocumentMoniker": "Pages\\Employer\\PostJob.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\PostJob.razor",
+              "RelativeToolTip": "Pages\\Employer\\PostJob.razor",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:52.856Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\LoginDisplay.razor",
+              "RelativeDocumentMoniker": "Shared\\LoginDisplay.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\LoginDisplay.razor",
+              "RelativeToolTip": "Shared\\LoginDisplay.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:22:30.842Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:02:20.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "Shared\\RedirectToLogin.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\RedirectToLogin.razor",
+              "RelativeToolTip": "Shared\\RedirectToLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:03:16.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:20:33.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:04:15.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:01:35.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateJobSeekerProfileDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobSeekerProfile\\Request\\CreateJobSeekerProfileDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:51:54.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobDetails.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\JobDetails.razor",
+              "RelativeDocumentMoniker": "Pages\\JobSeeker\\JobDetails.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\JobDetails.razor",
+              "RelativeToolTip": "Pages\\JobSeeker\\JobDetails.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:22.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "Pages\\Component.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Component.razor",
+              "RelativeToolTip": "Pages\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:20:42.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\Profile.razor",
+              "RelativeDocumentMoniker": "Pages\\JobSeeker\\Profile.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\Profile.razor",
+              "RelativeToolTip": "Pages\\JobSeeker\\Profile.razor",
+              "ViewState": "AgIAALUAAAAAAAAAAAAIwMEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:13.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyApplications.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\MyApplications.razor",
+              "RelativeDocumentMoniker": "Pages\\JobSeeker\\MyApplications.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\JobSeeker\\MyApplications.razor",
+              "RelativeToolTip": "Pages\\JobSeeker\\MyApplications.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:21:29.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:03:31.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Providers\\CustomAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "Providers\\CustomAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Providers\\CustomAuthStateProvider.cs",
+              "RelativeToolTip": "Providers\\CustomAuthStateProvider.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:44:08.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T06:03:41.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\EmployerService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\EmployerService.cs",
+              "RelativeToolTip": "Services\\EmployerService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAhwEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:49:26.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MatchingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\MatchingService.cs",
+              "RelativeDocumentMoniker": "Services\\MatchingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\MatchingService.cs",
+              "RelativeToolTip": "Services\\MatchingService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAhwCMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:50:01.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Services\\ApplicationService.cs",
+              "RelativeToolTip": "Services\\ApplicationService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAIAwwEoAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:49:49.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TalentMatch.BlazorApp",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\TalentMatch.BlazorApp.csproj",
+              "RelativeDocumentMoniker": "TalentMatch.BlazorApp.csproj",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\TalentMatch.BlazorApp.csproj",
+              "RelativeToolTip": "TalentMatch.BlazorApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T07:55:12.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetJobSeekerProfileDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Response\\GetJobSeekerProfileDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobSeekerProfile\\Response\\GetJobSeekerProfileDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Response\\GetJobSeekerProfileDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobSeekerProfile\\Response\\GetJobSeekerProfileDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:52:32.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetJobPostingDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobPosting\\Response\\GetJobPostingDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:51:33.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-11T06:06:57.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Applicants.razor",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\Applicants.razor",
+              "RelativeDocumentMoniker": "Pages\\Employer\\Applicants.razor",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Pages\\Employer\\Applicants.razor",
+              "RelativeToolTip": "Pages\\Employer\\Applicants.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T05:22:03.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MatchesQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\MatchesQueryFilter.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobMatch\\Request\\MatchesQueryFilter.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\MatchesQueryFilter.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobMatch\\Request\\MatchesQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:00:52.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IMatchingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IMatchingService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IMatchingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IMatchingService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IMatchingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:00:18.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IJobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IJobSeekerService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IJobSeekerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IJobSeekerService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IJobSeekerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:00:00.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PaginationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\PaginationRequest.cs",
+              "RelativeDocumentMoniker": "Models\\PaginationRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\PaginationRequest.cs",
+              "RelativeToolTip": "Models\\PaginationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:59:23.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JobPostingQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\JobPostingQueryFilter.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobPosting\\Request\\JobPostingQueryFilter.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\JobPostingQueryFilter.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobPosting\\Request\\JobPostingQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:59:11.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IJobPostingService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IJobPostingService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IJobPostingService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IJobPostingService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IJobPostingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:58:12.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PaginationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\PaginationResponse.cs",
+              "RelativeDocumentMoniker": "Models\\PaginationResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\PaginationResponse.cs",
+              "RelativeToolTip": "Models\\PaginationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:58:35.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Models\\Response.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Response.cs",
+              "RelativeToolTip": "Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:56:51.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IEmployerService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IEmployerService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IEmployerService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IEmployerService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IEmployerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:56:08.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IApplicationService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IApplicationService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:31:03.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Models\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:27:14.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetWorkExperienceDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Response\\GetWorkExperienceDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\WorkExperience\\Response\\GetWorkExperienceDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Response\\GetWorkExperienceDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\WorkExperience\\Response\\GetWorkExperienceDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:55:31.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateWorkExperienceDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Request\\UpdateWorkExperienceDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\WorkExperience\\Request\\UpdateWorkExperienceDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Request\\UpdateWorkExperienceDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\WorkExperience\\Request\\UpdateWorkExperienceDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:55:04.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateWorkExperienceDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Request\\CreateWorkExperienceDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\WorkExperience\\Request\\CreateWorkExperienceDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\WorkExperience\\Request\\CreateWorkExperienceDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\WorkExperience\\Request\\CreateWorkExperienceDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:54:49.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetUserDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Response\\GetUserDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\Response\\GetUserDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Response\\GetUserDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\Response\\GetUserDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:54:04.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateUserDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\UpdateUserDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\Request\\UpdateUserDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\UpdateUserDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\Request\\UpdateUserDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:53:37.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginUserDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\LoginUserDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\Request\\LoginUserDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\LoginUserDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\Request\\LoginUserDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:53:18.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreateUserDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\CreateUserDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\User\\Request\\CreateUserDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\User\\Request\\CreateUserDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\User\\Request\\CreateUserDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:52:58.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UpdateJobSeekerProfileDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Request\\UpdateJobSeekerProfileDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobSeekerProfile\\Request\\UpdateJobSeekerProfileDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobSeekerProfile\\Request\\UpdateJobSeekerProfileDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobSeekerProfile\\Request\\UpdateJobSeekerProfileDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:52:08.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UpdateJobPostingDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\UpdateJobPostingDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobPosting\\Request\\UpdateJobPostingDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\UpdateJobPostingDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobPosting\\Request\\UpdateJobPostingDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:51:06.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateJobPostingDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\CreateJobPostingDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobPosting\\Request\\CreateJobPostingDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobPosting\\Request\\CreateJobPostingDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobPosting\\Request\\CreateJobPostingDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:50:40.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetJobMatchDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Response\\GetJobMatchDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobMatch\\Response\\GetJobMatchDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Response\\GetJobMatchDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobMatch\\Response\\GetJobMatchDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:50:10.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UpdateJobMatchDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobMatch\\Request\\UpdateJobMatchDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:49:15.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateJobMatchDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\CreateJobMatchDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JobMatch\\Request\\CreateJobMatchDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\JobMatch\\Request\\CreateJobMatchDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\JobMatch\\Request\\CreateJobMatchDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:48:57.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GetEmployerProfileDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Response\\GetEmployerProfileDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\EmployerProfile\\Response\\GetEmployerProfileDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Response\\GetEmployerProfileDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\EmployerProfile\\Response\\GetEmployerProfileDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:48:36.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UpdateEmployerProfileDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Request\\UpdateEmployerProfileDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\EmployerProfile\\Request\\UpdateEmployerProfileDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Request\\UpdateEmployerProfileDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\EmployerProfile\\Request\\UpdateEmployerProfileDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:48:10.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CreateEmployerProfileDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Request\\CreateEmployerProfileDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\EmployerProfile\\Request\\CreateEmployerProfileDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\EmployerProfile\\Request\\CreateEmployerProfileDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\EmployerProfile\\Request\\CreateEmployerProfileDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:47:42.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetCertificationDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Response\\GetCertificationDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Certification\\Response\\GetCertificationDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Response\\GetCertificationDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\Certification\\Response\\GetCertificationDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:47:14.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UpdateCertificationDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Request\\UpdateCertificationDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Certification\\Request\\UpdateCertificationDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Request\\UpdateCertificationDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Certification\\Request\\UpdateCertificationDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:46:50.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CreateCertificationDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Request\\CreateCertificationDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Certification\\Request\\CreateCertificationDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Certification\\Request\\CreateCertificationDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Certification\\Request\\CreateCertificationDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:45:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetApplicationQuestionDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationQuestion\\Response\\GetApplicationQuestionDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApplicationQuestion\\Response\\GetApplicationQuestionDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationQuestion\\Response\\GetApplicationQuestionDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApplicationQuestion\\Response\\GetApplicationQuestionDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:44:30.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CreateApplicationQuestionDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationQuestion\\Request\\CreateApplicationQuestionDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApplicationQuestion\\Request\\CreateApplicationQuestionDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationQuestion\\Request\\CreateApplicationQuestionDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApplicationQuestion\\Request\\CreateApplicationQuestionDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:43:46.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GetApplicationAnswerDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Response\\GetApplicationAnswerDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApplicationAnswer\\Response\\GetApplicationAnswerDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Response\\GetApplicationAnswerDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApplicationAnswer\\Response\\GetApplicationAnswerDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:43:23.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UpdateApplicationAnswerDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Request\\UpdateApplicationAnswerDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApplicationAnswer\\Request\\UpdateApplicationAnswerDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Request\\UpdateApplicationAnswerDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApplicationAnswer\\Request\\UpdateApplicationAnswerDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:41:59.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateApplicationAnswerDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Request\\CreateApplicationAnswerDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApplicationAnswer\\Request\\CreateApplicationAnswerDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\ApplicationAnswer\\Request\\CreateApplicationAnswerDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApplicationAnswer\\Request\\CreateApplicationAnswerDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:41:35.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GetApplicationDtoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Application\\Response\\GetApplicationDtoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Application\\Response\\GetApplicationDtoResponse.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Application\\Response\\GetApplicationDtoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\Application\\Response\\GetApplicationDtoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:41:13.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CreateApplicationDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Application\\Request\\CreateApplicationDtoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Application\\Request\\CreateApplicationDtoRequest.cs",
+              "ToolTip": "C:\\Users\\larag\\OneDrive\\Documentos\\TalentMatch\\TalentMatch.BlazorApp\\Models\\DTOs\\Application\\Request\\CreateApplicationDtoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Application\\Request\\CreateApplicationDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T05:40:37.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 464,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 464,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

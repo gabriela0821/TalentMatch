@@ -1,0 +1,222 @@
+﻿@page "/jobseeker/profile"
+@using Blazored.LocalStorage
+@using TalentMatch.BlazorApp.Models
+@using TalentMatch.BlazorApp.Models.DTOs.JobSeekerProfile.Request
+@using TalentMatch.BlazorApp.Models.DTOs.JobSeekerProfile.Response
+@using TalentMatch.BlazorApp.Models.Interfaces.Services
+@attribute [Authorize(Roles = "JobSeeker")]
+@inject IJobSeekerService ProfileService
+@inject ILocalStorageService LocalStorage
+
+<PageTitle>Mi Perfil</PageTitle>
+
+<h3>Mi Perfil Profesional</h3>
+
+@if (isLoading)
+{
+    <div class="text-center my-5">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Cargando...</span>
+        </div>
+    </div>
+}
+else
+{
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success" role="alert">
+            @successMessage
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            @errorMessage
+        </div>
+    }
+
+    <EditForm Model="@profile" OnValidSubmit="HandleSubmitAsync">
+        <DataAnnotationsValidator />
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Nombre Completo</label>
+                <InputText @bind-Value="profile.FullName" class="form-control" />
+            </div>
+            <div class="col-md-3 mb-3">
+                <label class="form-label">Edad</label>
+                <InputNumber @bind-Value="profile.Age" class="form-control" />
+            </div>
+            <div class="col-md-3 mb-3">
+                <label class="form-label">Teléfono</label>
+                <InputText @bind-Value="profile.Phone" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Ciudad</label>
+                <InputText @bind-Value="profile.City" class="form-control" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Nivel de Educación</label>
+                <InputSelect @bind-Value="profile.EducationLevel" class="form-select">
+                    <option value="">Seleccione...</option>
+                    <option value="Bachiller">Bachiller</option>
+                    <option value="Técnico">Técnico</option>
+                    <option value="Tecnólogo">Tecnólogo</option>
+                    <option value="Profesional">Profesional</option>
+                    <option value="Especialización">Especialización</option>
+                    <option value="Maestría">Maestría</option>
+                    <option value="Doctorado">Doctorado</option>
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Años de Experiencia</label>
+                <InputNumber @bind-Value="profile.YearsOfExperience" class="form-control" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Salario Esperado</label>
+                <InputNumber @bind-Value="profile.ExpectedSalary" class="form-control" />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Habilidades (separadas por comas)</label>
+            <InputText @bind-Value="profile.Skills" class="form-control" placeholder="C#, .NET, SQL Server, Blazor" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Ubicación Preferida</label>
+            <InputText @bind-Value="profile.PreferredLocation" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Resumen Profesional</label>
+            <InputTextArea @bind-Value="profile.Summary" class="form-control" rows="4" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" disabled="@isSaving">
+            @if (isSaving)
+            {
+                <span class="spinner-border spinner-border-sm me-2"></span>
+            }
+            @(profile.ProfileId > 0 ? "Actualizar" : "Crear") Perfil
+        </button>
+    </EditForm>
+}
+@code {
+    private GetJobSeekerProfileDtoResponse profile = new();
+    private CreateJobSeekerProfileDtoRequest createRequest = new();
+    private UpdateJobSeekerProfileDtoRequest updateRequest = new();
+    private bool isLoading = true;
+    private bool isSaving = false;
+    private string successMessage = string.Empty;
+    private string errorMessage = string.Empty;
+    private int userId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = await LocalStorage.GetItemAsync<int>("userId");
+
+        try
+        {
+            var response = await ProfileService.GetProfileById(userId);
+            if ((bool)response.Succeeded && response.Data != null)
+            {
+                profile = response.Data;
+            }
+            else
+            {
+                // Nuevo perfil - inicializar para crear
+                profile = new GetJobSeekerProfileDtoResponse();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading profile: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task HandleSubmitAsync()
+    {
+        isSaving = true;
+        successMessage = string.Empty;
+        errorMessage = string.Empty;
+
+        try
+        {
+            Response<GetJobSeekerProfileDtoResponse?> response;
+
+            if (profile.ProfileId > 0)
+            {
+                // Mapear a UpdateRequest
+                updateRequest = new UpdateJobSeekerProfileDtoRequest
+                {
+                    ProfileId = profile.ProfileId,
+                    UserId = userId,
+                    FullName = profile.FullName,
+                    Age = profile.Age,
+                    Phone = profile.Phone,
+                    City = profile.City,
+                    EducationLevel = profile.EducationLevel,
+                    YearsOfExperience = profile.YearsOfExperience,
+                    Skills = profile.Skills,
+                    ExpectedSalary = profile.ExpectedSalary,
+                    PreferredLocation = profile.PreferredLocation,
+                    Summary = profile.Summary
+                };
+
+                response = await ProfileService.UpdateProfile(updateRequest);
+                successMessage = "Perfil actualizado exitosamente";
+            }
+            else
+            {
+                // Mapear a CreateRequest
+                createRequest = new CreateJobSeekerProfileDtoRequest
+                {
+                    UserId = userId,
+                    FullName = profile.FullName,
+                    Age = profile.Age,
+                    Phone = profile.Phone,
+                    City = profile.City,
+                    EducationLevel = profile.EducationLevel,
+                    YearsOfExperience = profile.YearsOfExperience,
+                    Skills = profile.Skills,
+                    ExpectedSalary = profile.ExpectedSalary,
+                    PreferredLocation = profile.PreferredLocation,
+                    Summary = profile.Summary
+                };
+
+                response = await ProfileService.CreateProfile(createRequest);
+                successMessage = "Perfil creado exitosamente";
+            }
+
+            if ((bool)response.Succeeded)
+            {
+                errorMessage = response.Message ?? "Error al guardar el perfil";
+            }
+            else if (response.Data != null)
+            {
+                profile = response.Data;
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error al guardar el perfil";
+            Console.WriteLine($"Error saving profile: {ex.Message}");
+        }
+        finally
+        {
+            isSaving = false;
+        }
+    }
+}

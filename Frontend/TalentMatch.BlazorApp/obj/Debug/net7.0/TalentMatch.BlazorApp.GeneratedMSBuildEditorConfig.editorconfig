@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TalentMatch.BlazorApp
+build_property.RootNamespace = TalentMatch.BlazorApp
+build_property.ProjectDir = C:\Users\larag\OneDrive\Documentos\TalentMatch\TalentMatch.BlazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\larag\OneDrive\Documentos\TalentMatch\TalentMatch.BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Employer/Applicants.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZXJcQXBwbGljYW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Employer/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZXJcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Employer/PostJob.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZXJcUG9zdEpvYi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/JobSeeker/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iU2Vla2VyXERhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/JobSeeker/JobDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iU2Vla2VyXEpvYkRldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/JobSeeker/MyApplications.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iU2Vla2VyXE15QXBwbGljYXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/JobSeeker/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iU2Vla2VyXFByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-asfydkzln4
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cot566awl2
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larag/OneDrive/Documentos/TalentMatch/TalentMatch.BlazorApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketAutomation.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TicketAutomation.Api.Controllers.TicketController.CreateImportAsync(System.Byte[])">
+            <summary>
+            Importa tickets desde un archivo Excel codificado en Base64 y crea los tickets correspondientes en el sistema.
+            </summary>
+            <remarks>
+            Este endpoint permite recibir un archivo Excel en formato Base64 que contiene la información necesaria
+            para la creación de tickets. El archivo es procesado, decodificado y convertido en una lista de solicitudes,
+            las cuales se envían a una API externa para completar la creación de los tickets.
+            </remarks>
+            <param name="createImport">Cadena Base64 que representa el archivo Excel con los datos de los tickets a importar.</param>
+            <returns>Un objeto que indica el resultado de la operación, incluyendo la cantidad de tickets creados o un mensaje de error.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\bin\Release\net8.0\TicketAutomation.Domain.deps.json
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\bin\Release\net8.0\TicketAutomation.Domain.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\bin\Release\net8.0\TicketAutomation.Domain.pdb
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.csproj.AssemblyReference.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.AssemblyInfoInputs.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.AssemblyInfo.cs
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.csproj.CoreCompileInputs.cache
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\refint\TicketAutomation.Domain.dll
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\TicketAutomation.Domain.pdb
+C:\Users\larag\OneDrive\Documentos\TicketAutomation\ticketAutomation.api\TicketAutomation.Domain\obj\Release\net8.0\ref\TicketAutomation.Domain.dll

@@ -1,0 +1,62 @@
+﻿@page "/"
+
+<PageTitle>TalentMatch - Encuentra tu trabajo ideal</PageTitle>
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Bienvenido a TalentMatch</h1>
+    <p class="lead">La plataforma que conecta talento con oportunidades</p>
+
+    <div class="mt-5">
+        <AuthorizeView>
+            <Authorized>
+                @if (context.User.IsInRole("JobSeeker"))
+                {
+                    <a href="/jobseeker/dashboard" class="btn btn-primary btn-lg me-3">
+                        Ver Vacantes
+                    </a>
+                }
+                else if (context.User.IsInRole("Employer"))
+                {
+                    <a href="/employer/dashboard" class="btn btn-primary btn-lg me-3">
+                        Ir al Dashboard
+                    </a>
+                }
+            </Authorized>
+            <NotAuthorized>
+                <a href="/register" class="btn btn-primary btn-lg me-3">
+                    Registrarse
+                </a>
+                <a href="/login" class="btn btn-outline-primary btn-lg">
+                    Iniciar Sesión
+                </a>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Para Candidatos</h5>
+                    <p class="card-text">Encuentra trabajos que se ajusten a tu perfil y experiencia</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Para Empresas</h5>
+                    <p class="card-text">Publica vacantes y encuentra el talento ideal para tu equipo</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Matching Inteligente</h5>
+                    <p class="card-text">Algoritmo que conecta automáticamente candidatos con vacantes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

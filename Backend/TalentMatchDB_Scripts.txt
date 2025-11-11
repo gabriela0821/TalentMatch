@@ -1,0 +1,281 @@
+CREATE DATABASE TalentMatchDB;
+
+-- ============================================
+-- JOB MATCHING SYSTEM - DATABASE CREATION
+-- ============================================
+
+-- 1. USERS
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY IDENTITY(1,1),
+    Email NVARCHAR(100) NOT NULL UNIQUE,
+    PasswordHash NVARCHAR(255) NOT NULL,
+    UserType NVARCHAR(20) NOT NULL CHECK (UserType IN ('Employer', 'JobSeeker')),
+    IsActive BIT DEFAULT 1,
+    CreatedAt DATETIME2 DEFAULT GETDATE()
+);
+
+-- 2. JOB SEEKER PROFILES
+CREATE TABLE JobSeekerProfiles (
+    ProfileId INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT NOT NULL UNIQUE,
+    FullName NVARCHAR(100) NOT NULL,
+    Age INT,
+    Phone NVARCHAR(20),
+    City NVARCHAR(100),
+    EducationLevel NVARCHAR(50) NOT NULL CHECK (EducationLevel IN ('Bachiller', 'Técnico', 'Tecnólogo', 'Profesional', 'Especialización', 'Maestría', 'Doctorado')),
+    YearsOfExperience INT DEFAULT 0,
+    Skills NVARCHAR(MAX),
+    ExpectedSalary DECIMAL(18,2),
+    PreferredLocation NVARCHAR(100),
+    Summary NVARCHAR(500),
+    CreatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (UserId) REFERENCES Users(UserId) ON DELETE CASCADE
+);
+
+-- 3. WORK EXPERIENCE
+CREATE TABLE WorkExperience (
+    ExperienceId INT PRIMARY KEY IDENTITY(1,1),
+    JobSeekerId INT NOT NULL,
+    CompanyName NVARCHAR(150) NOT NULL,
+    JobTitle NVARCHAR(100) NOT NULL,
+    StartDate DATE NOT NULL,
+    EndDate DATE,
+    IsCurrentJob BIT DEFAULT 0,
+    Description NVARCHAR(500),
+    CreatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (JobSeekerId) REFERENCES JobSeekerProfiles(ProfileId) ON DELETE CASCADE
+);
+
+-- 4. CERTIFICATIONS
+CREATE TABLE Certifications (
+    CertificationId INT PRIMARY KEY IDENTITY(1,1),
+    JobSeekerId INT NOT NULL,
+    CertificationName NVARCHAR(150) NOT NULL,
+    IssuingOrganization NVARCHAR(150) NOT NULL,
+    IssueDate DATE NOT NULL,
+    ExpiryDate DATE,
+    CredentialUrl NVARCHAR(255),
+    CreatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (JobSeekerId) REFERENCES JobSeekerProfiles(ProfileId) ON DELETE CASCADE
+);
+
+-- 5. EMPLOYER PROFILES
+CREATE TABLE EmployerProfiles (
+    ProfileId INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT NOT NULL UNIQUE,
+    CompanyName NVARCHAR(150) NOT NULL,
+    Industry NVARCHAR(100) NOT NULL,
+    City NVARCHAR(100),
+    EmployeeCount INT,
+    Phone NVARCHAR(20),
+    WebsiteUrl NVARCHAR(255),
+    Description NVARCHAR(1000),
+    CreatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (UserId) REFERENCES Users(UserId) ON DELETE CASCADE
+);
+
+-- 6. JOB POSTINGS
+CREATE TABLE JobPostings (
+    JobId INT PRIMARY KEY IDENTITY(1,1),
+    EmployerId INT NOT NULL,
+    Title NVARCHAR(150) NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL,
+    RequiredSkills NVARCHAR(MAX) NOT NULL,
+    MinEducationLevel NVARCHAR(50) NOT NULL,
+    MinExperience INT DEFAULT 0,
+    Location NVARCHAR(100),
+    WorkMode NVARCHAR(20) CHECK (WorkMode IN ('Presencial', 'Remoto', 'Híbrido')),
+    SalaryMin DECIMAL(18,2),
+    SalaryMax DECIMAL(18,2),
+    IsActive BIT DEFAULT 1,
+    PostedDate DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (EmployerId) REFERENCES EmployerProfiles(ProfileId) ON DELETE CASCADE
+);
+
+-- 7. APPLICATION QUESTIONS
+CREATE TABLE ApplicationQuestions (
+    QuestionId INT PRIMARY KEY IDENTITY(1,1),
+    JobPostingId INT NOT NULL,
+    QuestionText NVARCHAR(500) NOT NULL,
+    QuestionType NVARCHAR(20) DEFAULT 'Text' CHECK (QuestionType IN ('Text', 'YesNo', 'MultipleChoice')),
+    IsRequired BIT DEFAULT 1,
+    DisplayOrder INT DEFAULT 1,
+    CreatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (JobPostingId) REFERENCES JobPostings(JobId) ON DELETE CASCADE
+);
+
+-- 8. APPLICATIONS
+CREATE TABLE Applications (
+    ApplicationId INT PRIMARY KEY IDENTITY(1,1),
+    JobPostingId INT NOT NULL,
+    JobSeekerId INT NOT NULL,
+    CoverLetter NVARCHAR(MAX),
+    Status NVARCHAR(20) DEFAULT 'Submitted' 
+        CHECK (Status IN ('Submitted', 'Under Review', 'Interview', 'Rejected', 'Accepted')),
+    AppliedAt DATETIME2 DEFAULT GETDATE(),
+    UpdatedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (JobPostingId) REFERENCES JobPostings(JobId) ON DELETE CASCADE,
+    FOREIGN KEY (JobSeekerId) REFERENCES JobSeekerProfiles(ProfileId) ON DELETE NO ACTION,
+    CONSTRAINT UQ_Application UNIQUE(JobPostingId, JobSeekerId)
+);
+
+-- 9. APPLICATION ANSWERS
+CREATE TABLE ApplicationAnswers (
+    AnswerId INT PRIMARY KEY IDENTITY(1,1),
+    QuestionId INT NOT NULL,
+    JobSeekerId INT NOT NULL,
+    AnswerText NVARCHAR(MAX) NOT NULL,
+    AnsweredAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (QuestionId) REFERENCES ApplicationQuestions(QuestionId) ON DELETE CASCADE,
+    FOREIGN KEY (JobSeekerId) REFERENCES JobSeekerProfiles(ProfileId) ON DELETE NO ACTION,
+    CONSTRAINT UQ_Answer UNIQUE(QuestionId, JobSeekerId)
+);
+
+-- 10. JOB MATCHES
+CREATE TABLE JobMatches (
+    MatchId INT PRIMARY KEY IDENTITY(1,1),
+    JobPostingId INT NOT NULL,
+    JobSeekerId INT NOT NULL,
+    MatchScore DECIMAL(5,2) NOT NULL,
+    SkillsScore DECIMAL(5,2),
+    ExperienceScore DECIMAL(5,2),
+    EducationScore DECIMAL(5,2),
+    LocationScore DECIMAL(5,2),
+    Status NVARCHAR(20) DEFAULT 'Pending' CHECK (Status IN ('Pending', 'Viewed', 'Applied', 'Rejected')),
+    MatchedAt DATETIME2 DEFAULT GETDATE(),
+    FOREIGN KEY (JobPostingId) REFERENCES JobPostings(JobId) ON DELETE CASCADE,
+    FOREIGN KEY (JobSeekerId) REFERENCES JobSeekerProfiles(ProfileId) ON DELETE NO ACTION,
+    CONSTRAINT UQ_JobMatch UNIQUE(JobPostingId, JobSeekerId)
+);
+
+-- ============================================
+-- INDEXES FOR PERFORMANCE
+-- ============================================
+
+CREATE INDEX IX_JobPostings_IsActive ON JobPostings(IsActive);
+CREATE INDEX IX_JobPostings_Location ON JobPostings(Location);
+CREATE INDEX IX_JobMatches_JobSeekerId ON JobMatches(JobSeekerId);
+CREATE INDEX IX_JobMatches_Status ON JobMatches(Status);
+CREATE INDEX IX_Users_Email ON Users(Email);
+CREATE INDEX IX_WorkExperience_JobSeekerId ON WorkExperience(JobSeekerId);
+CREATE INDEX IX_Certifications_JobSeekerId ON Certifications(JobSeekerId);
+CREATE INDEX IX_ApplicationQuestions_JobPostingId ON ApplicationQuestions(JobPostingId);
+CREATE INDEX IX_Applications_JobPostingId ON Applications(JobPostingId);
+CREATE INDEX IX_Applications_JobSeekerId ON Applications(JobSeekerId);
+CREATE INDEX IX_Applications_Status ON Applications(Status);
+CREATE INDEX IX_ApplicationAnswers_QuestionId ON ApplicationAnswers(QuestionId);
+CREATE INDEX IX_ApplicationAnswers_JobSeekerId ON ApplicationAnswers(JobSeekerId);
+
+
+-- ============================================
+-- SEED DATA
+-- ============================================
+
+
+----------------------------------------------------------
+-- USERS
+----------------------------------------------------------
+SET IDENTITY_INSERT Users ON;
+INSERT INTO Users (UserId, Email, PasswordHash, UserType, IsActive)
+VALUES (1, 'empresa1@jobs.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'Employer', 1),
+       (2, 'empresa2@jobs.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'Employer', 1),
+       (3, 'empresa3@jobs.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'Employer', 1),
+       (4, 'empresa4@jobs.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'Employer', 1),
+       (5, 'candidato1@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1),
+       (6, 'candidato2@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1),
+       (7, 'candidato3@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1),
+       (8, 'candidato4@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1),
+       (9, 'candidato5@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1),
+       (10,'candidato6@mail.com', '$2a$11$N9qo8uLOickgx2ZMRZoMye6p1jJJhQRFU1p1J1J1J1J1J1J1J1', 'JobSeeker', 1);
+SET IDENTITY_INSERT Users OFF;
+----------------------------------------------------------
+-- EMPLOYERS
+----------------------------------------------------------
+SET IDENTITY_INSERT EmployerProfiles ON;
+INSERT INTO EmployerProfiles (ProfileId, UserId, CompanyName, Industry, City, EmployeeCount, Phone, WebsiteUrl, Description)
+VALUES (1, 1, 'TechNova', 'Tecnología', 'Bogotá', 200, '3109990001', 'https://technova.com', 'Desarrollo de software y soluciones IA'),
+       (2, 2, 'LogiExpress', 'Logística', 'Medellín', 500, '3109990002', 'https://logiexpress.com', 'Soluciones de transporte nacional'),
+       (3, 3, 'Finanx', 'Finanzas', 'Barranquilla', 120, '3109990003', 'https://finanx.com', 'Procesamiento financiero digital'),
+       (4, 4, 'AgriCorp', 'Agroindustria', 'Cali', 300, '3109990004', 'https://agricorp.com', 'Exportación de productos agrícolas');
+SET IDENTITY_INSERT EmployerProfiles OFF;
+----------------------------------------------------------
+-- JOB SEEKERS
+----------------------------------------------------------
+SET IDENTITY_INSERT JobSeekerProfiles ON;
+INSERT INTO JobSeekerProfiles (ProfileId, UserId, FullName, Age, Phone, City, EducationLevel, YearsOfExperience, Skills, ExpectedSalary, PreferredLocation, Summary)
+VALUES (1, 5, 'Carlos Peña', 25, '3026001111', 'Bogotá', 'Profesional', 2, 'C#, .NET, SQL', 3500000, 'Bogotá', 'Desarrollador backend junior'),
+       (2, 6, 'Diana Ríos', 28, '3026002222', 'Medellín', 'Tecnólogo', 3, 'React, TypeScript, Node.js', 4200000, 'Remoto', 'Frontend con experiencia en mobile'),
+       (3, 7, 'Santiago Cruz', 30, '3026003333', 'Bogotá', 'Profesional', 5, 'Project Management, Scrum', 5000000, 'Bogotá', 'Scrum Master certificado'),
+       (4, 8, 'Juliana Gómez', 26, '3026004444', 'Cali', 'Profesional', 4, 'Python, ETL, Data Warehouse', 4800000, 'Remoto', 'Analista de datos'),
+       (5, 9, 'Andrés Vargas', 27, '3026005555', 'Barranquilla', 'Especialización', 3, 'QA Testing, Selenium, API Testing', 3800000, 'Barranquilla', 'QA Automation'),
+       (6,10, 'Laura Castillo', 32, '3026006666', 'Medellín', 'Maestría', 8, 'Arquitectura de software, AWS', 8000000, 'Híbrido', 'Arquitecta de software');
+SET IDENTITY_INSERT JobSeekerProfiles OFF;
+----------------------------------------------------------
+-- EXPERIENCE
+----------------------------------------------------------
+INSERT INTO WorkExperience (JobSeekerId, CompanyName, JobTitle, StartDate, EndDate, IsCurrentJob, Description)
+VALUES
+(1, 'Soft Colombia', 'Backend Developer', '2023-01-01', NULL, 1, 'Desarrollo en .NET'),
+(2, 'AppsFactory', 'Frontend Developer', '2022-06-01', NULL, 1, 'React y apps mobile'),
+(3, 'Banco Unión', 'Scrum Master', '2021-01-01', NULL, 1, 'Gestión de proyectos'),
+(4, 'DataCorp', 'Data Analyst', '2022-02-01', NULL, 1, 'ETL y dashboards'),
+(5, 'TestingPro', 'QA Automation', '2023-03-01', NULL, 1, 'Pruebas con Selenium'),
+(6, 'CloudMasters', 'Software Architect', '2020-01-01', NULL, 1, 'AWS y microservicios');
+----------------------------------------------------------
+-- CERTIFICATIONS
+----------------------------------------------------------
+INSERT INTO Certifications (JobSeekerId, CertificationName, IssuingOrganization, IssueDate)
+VALUES
+(6, 'AWS Solutions Architect Associate', 'AWS', '2024-03-01'),
+(3, 'Scrum Master Certified', 'ScrumStudy', '2023-11-01');
+----------------------------------------------------------
+-- JOB POSTINGS (4 employers -> 4 vacantes, 2 con preguntas)
+----------------------------------------------------------
+SET IDENTITY_INSERT JobPostings ON;
+INSERT INTO JobPostings (JobId, EmployerId, Title, Description, RequiredSkills, MinEducationLevel, MinExperience, Location, WorkMode, SalaryMin, SalaryMax, IsActive)
+VALUES
+(1, 1, 'Backend .NET Developer', 'Proyecto en microservicios .NET', 'C#, .NET, SQL', 'Profesional', 2, 'Bogotá', 'Híbrido', 3500000, 5000000, 1),
+(2, 2, 'Frontend React Developer', 'Desarrollo web React + TypeScript', 'React, TypeScript', 'Tecnólogo', 1, 'Medellín', 'Remoto', 3000000, 4500000, 1),
+(3, 3, 'QA Automation', 'Pruebas automáticas de APIs', 'Selenium, Postman', 'Profesional', 1, 'Barranquilla', 'Presencial', 3000000, 4200000, 1),
+(4, 4, 'Data Analyst', 'Analítica y dashboards', 'Python, SQL, ETL', 'Profesional', 2, 'Cali', 'Presencial', 3500000, 5000000, 1);
+SET IDENTITY_INSERT JobPostings OFF;
+----------------------------------------------------------
+-- QUESTIONS (solo para vacantes 1 y 2)
+----------------------------------------------------------
+SET IDENTITY_INSERT ApplicationQuestions ON;
+INSERT INTO ApplicationQuestions (QuestionId, JobPostingId, QuestionText, QuestionType, IsRequired, DisplayOrder)
+VALUES
+(1, 1, '¿Cuántos años de experiencia tienes con .NET?', 'Text', 1, 1),
+(2, 1, '¿Puedes trabajar en Bogotá de manera híbrida?', 'YesNo', 1, 2),
+(3, 2, '¿Experiencia con TypeScript?', 'YesNo', 1, 1),
+(4, 2, '¿Nivel de inglés?', 'Text', 1, 2);
+SET IDENTITY_INSERT ApplicationQuestions OFF;
+----------------------------------------------------------
+-- APPLICATIONS (todos aplican a al menos 1 vacante)
+----------------------------------------------------------
+SET IDENTITY_INSERT Applications ON;
+INSERT INTO Applications (ApplicationId, JobPostingId, JobSeekerId, CoverLetter, Status)
+VALUES
+(1, 1, 1, 'Tengo experiencia con .NET.', 'Submitted'),
+(2, 2, 2, 'Frontend React con 3 años de exp.', 'Submitted'),
+(3, 3, 5, 'Pruebas automatizadas con Selenium.', 'Submitted'),
+(4, 4, 4, 'Experiencia en analítica de datos.', 'Submitted'),
+(5, 1, 6, 'Arquitectura .NET con AWS.', 'Submitted'),
+(6, 2, 3, 'Lideré equipo frontend.', 'Submitted');
+SET IDENTITY_INSERT Applications OFF;
+----------------------------------------------------------
+-- ANSWERS (solo para vacantes con preguntas)
+----------------------------------------------------------
+INSERT INTO ApplicationAnswers (QuestionId, JobSeekerId, AnswerText)
+VALUES
+(1, 1, '2 años'),
+(2, 1, 'Sí'),
+(3, 2, 'Sí'),
+(4, 2, 'B2 avanzado');
+----------------------------------------------------------
+-- MATCHES
+----------------------------------------------------------
+INSERT INTO JobMatches (JobPostingId, JobSeekerId, MatchScore, SkillsScore, ExperienceScore, EducationScore, LocationScore, Status)
+VALUES
+(1, 1, 80.00, 85.00, 75.00, 90.00, 70.00, 'Pending'),
+(2, 2, 92.00, 95.00, 90.00, 80.00, 100.00, 'Pending');

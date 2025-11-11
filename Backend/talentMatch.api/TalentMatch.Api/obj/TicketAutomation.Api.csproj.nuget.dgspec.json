@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Api\\TicketAutomation.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Api\\TicketAutomation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Api\\TicketAutomation.Api.csproj",
+        "projectName": "TicketAutomation.Api",
+        "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Api\\TicketAutomation.Api.csproj",
+        "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/CPHR9ACMupkyM5BzdMo3l9JpD4eXjjUS7Ow39v8RQPsHeB858x/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj"
+              },
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj"
+              },
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\TicketAutomation.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\TicketAutomation.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj",
+        "projectName": "TicketAutomation.Core",
+        "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj",
+        "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/CPHR9ACMupkyM5BzdMo3l9JpD4eXjjUS7Ow39v8RQPsHeB858x/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.44.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj",
+        "projectName": "TicketAutomation.Domain",
+        "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj",
+        "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/CPHR9ACMupkyM5BzdMo3l9JpD4eXjjUS7Ow39v8RQPsHeB858x/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\TicketAutomation.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\TicketAutomation.Infrastructure.csproj",
+        "projectName": "TicketAutomation.Infrastructure",
+        "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\TicketAutomation.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/CPHR9ACMupkyM5BzdMo3l9JpD4eXjjUS7Ow39v8RQPsHeB858x/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Core\\TicketAutomation.Core.csproj"
+              },
+              "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj": {
+                "projectPath": "C:\\Users\\larag\\OneDrive\\Documentos\\TicketAutomation\\ticketAutomation.api\\TicketAutomation.Domain\\TicketAutomation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
